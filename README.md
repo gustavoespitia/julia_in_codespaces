@@ -1,4 +1,4 @@
-# Julia in Github Codespaces
+# Running Julia in Github Codespaces
 
 This is a simple setup to run Julia on Github Codespaces just as a reminder for myself, maybe it will be useful for someone else.
 
