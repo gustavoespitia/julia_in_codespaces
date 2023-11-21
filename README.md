@@ -1,6 +1,6 @@
 # Running Julia in Github Codespaces
 
-This is a simple setup to run Julia on Github Codespaces just as a reminder for myself, maybe it will be useful for someone else.
+This is a simple setup to run Julia on Github Codespaces just as a reminder for myself, maybe it will be useful for someone else. Notice this procedure follows the Julia (Community) template.
 
 First go to repository you want to run in Codespaces, for example https://github.com/gisel-uninorte/SimpleDistributionPowerFlow.jl
 
