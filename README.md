@@ -8,7 +8,7 @@ On the green box (<> Code), select Codespaces and clic in plus (+) sign to add a
 
 When the Codespace is running for the first time, add a file folder with the name .devcontainer at top of folder structure and copy the devcontainer.json file that you find in this repository.
 
-devcontainer.json only has this seven lines:
+devcontainer.json is a plain file with this instruction:
       {
       	"name": "Julia (Community)",, and
       	"image": "ghcr.io/julia-vscode/julia-devcontainer",
