@@ -10,7 +10,7 @@ When the Codespace is running for the first time, add a file folder with the nam
 
 devcontainer.json is a plain file with this instruction:
       {
-      	"name": "Julia (Community)",, and
+      	"name": "Julia (Community)",
       	"image": "ghcr.io/julia-vscode/julia-devcontainer",
       	"extensions": ["julialang.language-julia"],
       	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl",
