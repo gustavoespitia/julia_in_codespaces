@@ -17,11 +17,10 @@ devcontainer.json is a plain file with this instruction:
       	"remoteUser": "vscode"
       }
 
-Restart Codespaces (clic on the warning notice that appears when you change devcontainer.json file or reload the webpage)
+Restart Codespaces (clic on the warning notice that appears when you create or modify devcontainer.json file or just reload the webpage)
 
-When restart precedures finished press Cntrl-Shift-P and execute Julia Start REPL (or simply press Alt-J Alt-O)
+When restart precedures finished press Cntrl-Shift-P and digit the command Julia Start REPL (or simply press Alt-J Alt-O) to start the Julia command console.
 
-To use the selected package issue the Julia "using" command, per example:
-julia> using SimpleDistributionPowerFlow
+To use a package issue the Julia "using" command, per example: julia> using SimpleDistributionPowerFlow
 
 To know the version of Julia, issue the bash command: julia -version
