@@ -17,7 +17,7 @@ devcontainer.json is a plain file with this instruction:
       	"remoteUser": "vscode"
       }
 
-Restart Codespaces (clic on the warning notice that appears when you change devcontainre.json file or reload the webpage)
+Restart Codespaces (clic on the warning notice that appears when you change devcontainer.json file or reload the webpage)
 
 When restart precedures finished press Cntrl-Shift-P and execute Julia Start REPL (or simply press Alt-J Alt-O)
 
