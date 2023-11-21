@@ -20,3 +20,8 @@ Inside .devcontainer folder create a file with the name devcontainer.json with t
 Restart Codespaces (clic on alert notice or simple reload the page)
 
 When restart precedures finished, press Cntrl-Shift-P and execute Julia Start REPL (or simply press Alt-J Alt-O)
+
+To use the selected package issue the Julia using command, per example:
+julia> using SimpleDistributionPowerFlow
+
+To know the version of Julia, issue the bash command: julia -version
