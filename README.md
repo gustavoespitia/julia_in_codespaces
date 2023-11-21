@@ -1,2 +1,22 @@
-# julia_in_codespaces
-Simple configuration to run Julia in Github Codespaces
+# Julia in Github Codespaces
+
+This is a simple setup to run Julia on Github Codespaces just as a reminder for myself, maybe it will be useful for someone else.
+
+First go to repository you want to run in Codespaces, for example https://github.com/gisel-uninorte/SimpleDistributionPowerFlow.jl
+
+On the green box (<> Code), select Codespaces and clic in plus (+) sign to add a new codespaces
+
+When the Codespace is running for the first time, add a file folder with the name .devcontainer at top of folder structure
+
+Inside .devcontainer folder create a file with the name devcontainer.json with this seven lines:
+      {
+      	"name": "Julia (Community)",
+      	"image": "ghcr.io/julia-vscode/julia-devcontainer",
+      	"extensions": ["julialang.language-julia"],
+      	"postCreateCommand": "/julia-devcontainer-scripts/postcreate.jl",
+      	"remoteUser": "vscode"
+      }
+
+Restart Codespaces (clic on alert notice or simple reload the page)
+
+When restart precedures finished, press Cntrl-Shift-P and execute Julia Start REPL (or simply press Alt-J Alt-O)
