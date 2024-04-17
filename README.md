@@ -21,6 +21,6 @@ Rebuild Codespaces (clic on the warning notice that appears when you create or m
 
 When restart precedures finished press Cntrl-Shift-P and digit the command Julia Start REPL (or simply press Alt-J Alt-O) to start the Julia command console.
 
-To use a package issue the Julia "using" command, per example: julia> using SimpleDistributionPowerFlow
+To use a package issue the Julia "using" command, in this case: julia> using SimpleDistributionPowerFlow
 
 To know the version of Julia, issue the bash command: julia -version
